@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header'
 import ExploreMenu from '../../Components/ExpoloreMenu/ExploreMenu'
 import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay'
 import { Route } from 'react-router-dom'
-import AppDownload from '../../components/AppDownload/AppDownload'
+import AppDownload from '../../Components/AppDownload/AppDownload'
 
 
 const Home = () => {

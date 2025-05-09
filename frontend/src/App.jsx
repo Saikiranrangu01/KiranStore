@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Cart from './pages/Cart/Cart'
@@ -6,16 +6,16 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Home from './pages/Home/Home'
 import Footer from './Components/Footer/Footer'
 import LoginPopUp from './Components/LoginPopUp/LoginPopUp'
-import ExploreMenu from './Components/ExploreMenu/ExploreMenu'
 import NoPage from './Components/NoPage/NoPage'
 import Contact from './Components/ContactUs/ContactUs'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 import OrderSuccess from './Components/OrderSuccess/OrderSuccess'
-import AppDownload from './components/AppDownload/AppDownload'
+import AppDownload from './Components/AppDownload/AppDownload'
+import ExploreMenu from './Components/ExpoloreMenu/ExploreMenu'
 
 const App = () => {
-  const [showLogin, setShowLogin] = useState(false)
+  const [showLogin, setShowLogin] = useState(false);
   return  (
     <>
     {showLogin?<LoginPopUp setShowLogin={setShowLogin}/>:<></>}
