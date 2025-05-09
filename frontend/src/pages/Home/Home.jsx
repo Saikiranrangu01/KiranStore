@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './Home.css'
-import Header from '../../components/Header/Header'
-import ExploreMenu from '../../components/ExpoloreMenu/ExploreMenu'
-import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
-import AppDownload from '../../components/AppDownload/AppDownload'
+import Header from '../../Components/Header/Header'
+import ExploreMenu from '../../Components/ExpoloreMenu/ExploreMenu'
+import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay'
 import { Route } from 'react-router-dom'
+import AppDownload from '../../components/AppDownload/AppDownload'
 
 
 const Home = () => {
